@@ -44,6 +44,7 @@ void AutoPark::DelBus()
 		cout << "In Autopark | " << endl;
 		this->Out->PopForElement(id);
 		cout << "In Road | " << endl;
+		_getch();
 	}
 }
 
